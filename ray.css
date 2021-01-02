@@ -1,0 +1,246 @@
+:root {
+    --black : #000;
+    --dark : #181818;
+    --light : #ffffff;
+    --blue : #0000ff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+a{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+/* ------------ color start------------ */
+
+.Pink{color: Pink ;}
+.LightPink {color: LightPink ;}
+.HotPink {color: HotPink ;}
+.DeepPink {color: DeepPink ;}
+.PaleVioletRed  {color: PaleVioletRed  ;}
+.MediumVioletRed  {color: MediumVioletRed  ;}
+
+.lavender   {color: Lavender   ;}
+.Thistle  {color: Thistle   ;}
+.Plum   {color: Plum   ;}
+.Orchid   {color: Orchid   ;}
+.Violet   {color: Violet   ;}
+.Fuchsia   {color: Fuchsia   ;}
+.Magenta   {color: Magenta   ;}
+.MediumOrchid   {color: MediumOrchid   ;}
+.DarkOrchid   {color: DarkOrchid   ;}
+.DarkViolet   {color: DarkViolet   ;}
+.BlueViolet   {color: BlueViolet   ;}
+.DarkMagenta   {color: DarkMagenta   ;}
+.Purple   {color: Purple   ;}
+.MediumPurple   {color: MediumPurple   ;}
+.MediumSlateBlue   {color: MediumSlateBlue   ;}
+.SlateBlue   {color: SlateBlue  ;}
+.DarkSlateBlue   {color: DarkSlateBlue   ;}
+.RebeccaPurple   {color: RebeccaPurple   ;}
+.Indigo    {color: Indigo  ;}
+
+.LightSalmon   {color: LightSalmon   ;}
+.Salmon   {color: Salmon   ;}
+.DarkSalmon   {color: DarkSalmon   ;}
+.LightCoral   {color: LightCoral   ;}
+.IndianRed    {color: IndianRed    ;}
+.Crimson   {color: Crimson   ;}
+.Red   {color: Red   ;}
+.FireBrick   {color: FireBrick   ;}
+.DarkRed   {color: DarkRed   ;}
+
+.Orange   {color: Orange   ;}
+.DarkOrange   {color: DarkOrange   ;}
+.Coral{color: Coral ;}
+.Tomato {color: Tomato  ;}
+.OrangeRed {color: OrangeRed ;}
+
+/* ------------ color end------------ */
+
+/* ------------ fonts or text all styling start------------- */
+/* ------- font family ---------- */
+
+.font_f-serif{font-family: serif;}
+.font_f-sans-serif{font-family: Sans-serif;}
+.font_f-monosapce{font-family: monospace;}
+.font_f-cursive{font-family: Cursive;}
+.font_f-fantasy{font-family: Fantasy;}
+
+/* Best Web Safe Fonts for HTML and CSS
+The following list are the best web safe fonts for HTML and CSS:
+
+Arial (sans-serif) 
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive) */
+
+.font_w_s-ari{font-family: Arial, sans-serif;}
+.font_w_s-ver{font-family: Verdana, sans-serif;}
+.font_w_s-hel{font-family: Helvetica, sans-serif;}
+.font_w_s-toh{font-family: Tahoma, sans-serif;}
+.font_w_s-tm{font-family: 'Trebuchet MS', sans-serif;}
+.font_w_s-tnr{font-family: 'Times New Roman', serif;}
+.font_w_s-geo{font-family: Georgia, serif;}
+.font_w_s-gar{font-family: Garamond, serif;}
+.font_w_s-cn{font-family: 'Courier New', serif;}
+.font_w_s-bsm{font-family: 'Brush Script MT', serif;}
+
+/* ---------- font fallback ------------------------------- */
+
+.font-t-t-s{font-family: 'Times New Roman', Times, serif;}
+.font-g-v-s{font-family: Georgia,Verdana, serif;}
+.font-a-h-s{font-family: Arial, Helvetica, sans-serif;}
+.font-v-t-s{font-family: Verdana,Tahoma, sans-serif;}
+.font-t-h-s{font-family: 'Trebuchet MS', Helvetica, sans-serif;}
+
+/* ----------- font style ------------- */
+
+.n-font{font-style: normal;}
+.i-font{font-style: italic;}
+.o-font{font-style: oblique;}
+
+/* -------------- font / text size ------------ */
+
+.t-xs{font-size: 0.75rem;line-height: 1rem;}
+.t-sm{font-size: 0.875rem;line-height: 1.25rem;}
+.t-m{font-size: 1rem;line-height: 1.5rem;}
+.t-lg{font-size: 1.125rem;line-height: 1.75rem;}
+.t-xl{font-size: 1.25rem;line-height: 1.75rem;}
+.t-2xl{font-size: 1.5rem;line-height: 2rem;}
+.t-3xl{font-size: 1.875rem;line-height: 2.25rem;}
+.t-4xl{font-size: 2.25rem;line-height: 2.5rem;}
+.t-4xl{font-size: 3rem;line-height: 3.3rem;}
+
+/* ----------------- line height ------------------- */
+
+.lh-1{line-height: 1rem;}
+.lh-1p1{line-height: 1.1rem;}
+.lh-1p2{line-height: 1.2rem;}
+.lh-1p3{line-height: 1.3rem;}
+.lh-1p4{line-height: 1.4rem;}
+.lh-1p5{line-height: 1.5rem;}
+.lh-1p6{line-height: 1.6rem;}
+.lh-1p7{line-height: 1.7rem;}
+.lh-1p8{line-height: 1.8rem;}
+.lh-1p9{line-height: 1.9rem;}
+
+.lh-2{line-height: 2rem;}
+.lh-2p1{line-height: 2.1rem;}
+.lh-2p2{line-height: 2.2rem;}
+.lh-2p3{line-height: 2.3rem;}
+.lh-2p4{line-height: 2.4rem;}
+.lh-2p5{line-height: 2.5rem;}
+.lh-2p6{line-height: 2.6rem;}
+.lh-2p7{line-height: 2.7rem;}
+.lh-2p8{line-height: 2.8rem;}
+.lh-2p9{line-height: 2.9rem;}
+
+.lh-3{line-height: 3rem;}
+.lh-3p1{line-height: 3.1rem;}
+.lh-3p2{line-height: 3.2rem;}
+.lh-3p3{line-height: 3.3rem;}
+.lh-3p4{line-height: 3.4rem;}
+.lh-3p5{line-height: 3.5rem;}
+.lh-3p6{line-height: 3.6rem;}
+.lh-3p7{line-height: 3.7rem;}
+.lh-3p8{line-height: 3.8rem;}
+.lh-3p9{line-height: 3.9rem;}
+
+.lh-4{line-height: 4rem;}
+.lh-4p1{line-height: 4.1rem;}
+.lh-4p2{line-height: 4.2rem;}
+.lh-4p3{line-height: 4.3rem;}
+.lh-4p4{line-height: 4.4rem;}
+.lh-4p5{line-height: 4.5rem;}
+.lh-4p6{line-height: 4.6rem;}
+.lh-4p7{line-height: 4.7rem;}
+.lh-4p8{line-height: 4.8rem;}
+.lh-4p9{line-height: 4.9rem;}
+
+.lh-5{line-height: 5rem;}
+.lh-5p1{line-height: 5.1rem;}
+.lh-5p2{line-height: 5.2rem;}
+.lh-5p3{line-height: 5.3rem;}
+.lh-5p4{line-height: 5.4rem;}
+.lh-5p5{line-height: 5.5rem;}
+.lh-5p6{line-height: 5.6rem;}
+.lh-5p7{line-height: 5.7rem;}
+.lh-5p8{line-height: 5.8rem;}
+.lh-5p9{line-height: 5.9rem;}
+
+.lh-6{line-height: 7rem;}
+.lh-6p1{line-height: 7.1rem;}
+.lh-6p2{line-height: 7.2rem;}
+.lh-6p3{line-height: 7.3rem;}
+.lh-6p4{line-height: 7.4rem;}
+.lh-6p5{line-height: 7.5rem;}
+.lh-6p6{line-height: 7.6rem;}
+.lh-6p7{line-height: 7.7rem;}
+.lh-6p8{line-height: 7.8rem;}
+.lh-6p9{line-height: 7.9rem;}
+
+.lh-7{line-height: 7rem;}
+.lh-7p1{line-height: 7.1rem;}
+.lh-7p2{line-height: 7.2rem;}
+.lh-7p3{line-height: 7.3rem;}
+.lh-7p4{line-height: 7.4rem;}
+.lh-7p5{line-height: 7.5rem;}
+.lh-7p6{line-height: 7.6rem;}
+.lh-7p7{line-height: 7.7rem;}
+.lh-7p8{line-height: 7.8rem;}
+.lh-7p9{line-height: 7.9rem;}
+
+.lh-8{line-height: 8rem;}
+.lh-8p1{line-height: 8.1rem;}
+.lh-8p2{line-height: 8.2rem;}
+.lh-8p3{line-height: 8.3rem;}
+.lh-8p4{line-height: 8.4rem;}
+.lh-8p5{line-height: 8.5rem;}
+.lh-8p6{line-height: 8.6rem;}
+.lh-8p7{line-height: 8.7rem;}
+.lh-8p8{line-height: 8.8rem;}
+.lh-8p9{line-height: 8.9rem;}
+
+.lh-9{line-height: 9rem;}
+.lh-9p1{line-height: 9.1rem;}
+.lh-9p2{line-height: 9.2rem;}
+.lh-9p3{line-height: 9.3rem;}
+.lh-9p4{line-height: 9.4rem;}
+.lh-9p5{line-height: 9.5rem;}
+.lh-9p6{line-height: 9.6rem;}
+.lh-9p7{line-height: 9.7rem;}
+.lh-9p8{line-height: 9.8rem;}
+.lh-9p9{line-height: 9.9rem;}
+.lh-10{line-height: 10rem;}
+
+
+
+
+/* ------------ font weight ----------------------------- */
+
+.fw-1{font-weight: 100;}   
+.fw-2{font-weight: 200;}
+.fw-3{font-weight: 300;}
+.fw-4{font-weight: 400;}
+.fw-5{font-weight: 500;}
+.fw-6{font-weight: 600;}
+.fw-7{font-weight: 700;}
+.fw-8{font-weight: 800;}
+.fw-9{font-weight: 900;}
+
+/* ------------ fonts or text all styling end------------- */
+
+
+
